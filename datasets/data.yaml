@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['faulty', 'no faulty']
+
+roboflow:
+  workspace: pv-machine-vision
+  project: solar-panel-faults
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pv-machine-vision/solar-panel-faults/dataset/2
